@@ -13,4 +13,9 @@ class ContentController extends Controller
     {
         return response(view('content.cities_in_poland'));
     }
+
+    public function citiesInEurope(): Response
+    {
+        return response(view('content.cities_in_europe'));
+    }
 }

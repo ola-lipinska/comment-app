@@ -29,8 +29,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('content.cities_in_poland') }}">Cities in Poland</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('content.cities_in_europe') }}">Cities in Europe</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 </head>
+
