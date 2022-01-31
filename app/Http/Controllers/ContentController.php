@@ -9,8 +9,8 @@ use Illuminate\Routing\Controller;
 
 class ContentController extends Controller
 {
-    public function citiesInEurope(): Response
+    public function citiesInPoland(): Response
     {
-        return response(view('content.cities_in_europe'));
+        return response(view('content.cities_in_poland'));
     }
 }
