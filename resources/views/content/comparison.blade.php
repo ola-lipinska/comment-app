@@ -67,7 +67,7 @@
     </tr>
   </tbody>
 </table>
-<div style="text-align: center"><img src="mapa.jpg" alt=Tekst"></div>
+<div style="text-align: center"><img src="{{ asset('img/mapa.jpg') }}" alt=Tekst"></div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
