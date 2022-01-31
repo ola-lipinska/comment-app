@@ -28,4 +28,9 @@ class ContentController extends Controller
     {
         return response(view('content.currency'));
     }
+
+    public function wondersOfTheWorld(): Response
+    {
+        return response(view('content.wonders_of_the_world'));
+    }
 }

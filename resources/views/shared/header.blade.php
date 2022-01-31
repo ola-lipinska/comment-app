@@ -38,6 +38,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('content.currency') }}">Currency</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('content.wonders_of_the_world') }}">Wonders of the world</a>
+                    </li>
                 </ul>
             </div>
         </div>
