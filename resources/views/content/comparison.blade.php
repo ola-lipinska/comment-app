@@ -1,6 +1,6 @@
 @extends('shared.layout')
 
-@section('title', 'Comments2- Homepage')
+@section('title', 'Comparison')
 
 @section('content')
 <!doctype html>

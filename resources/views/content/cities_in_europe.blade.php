@@ -1,6 +1,6 @@
 @extends('shared.layout')
 
-@section('title', 'Świat')
+@section('title', 'Europe')
 
 @section('content')
 <!doctype html>

@@ -33,7 +33,10 @@
                         <a class="nav-link" href="{{ route('content.cities_in_europe') }}">Cities in Europe</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('content.comparison') }}">Contact</a>
+                        <a class="nav-link" href="{{ route('content.comparison') }}">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('content.currency') }}">Currency</a>
                     </li>
                 </ul>
             </div>

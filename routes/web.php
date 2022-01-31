@@ -32,3 +32,5 @@ Route::get('/cities-in-poland', [ContentController::class, 'citiesInPoland'])->n
 Route::get('/cities-in-europe', [ContentController::class, 'citiesInEurope'])->name('content.cities_in_europe');
 
 Route::get('/comparison', [ContentController::class, 'comparison'])->name('content.comparison');
+
+Route::get('/currency', [ContentController::class, 'currency'])->name('content.currency');

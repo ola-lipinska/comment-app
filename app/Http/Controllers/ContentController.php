@@ -23,4 +23,9 @@ class ContentController extends Controller
     {
         return response(view('content.comparison'));
     }
+
+    public function Currency(): Response
+    {
+        return response(view('content.currency'));
+    }
 }
