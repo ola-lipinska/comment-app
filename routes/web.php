@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ContentController;
 use App\Http\Controllers\CommentsController;
 use App\Http\Controllers\HomepageController;
 use Illuminate\Support\Facades\Route;
