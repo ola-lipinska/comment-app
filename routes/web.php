@@ -30,3 +30,5 @@ Route::post('/contact/store', [ContactController::class, 'store'])->name('contac
 Route::get('/cities-in-poland', [ContentController::class, 'citiesInPoland'])->name('content.cities_in_poland');
 
 Route::get('/cities-in-europe', [ContentController::class, 'citiesInEurope'])->name('content.cities_in_europe');
+
+Route::get('/comparison', [ContentController::class, 'comparison'])->name('content.comparison');

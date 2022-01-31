@@ -18,4 +18,9 @@ class ContentController extends Controller
     {
         return response(view('content.cities_in_europe'));
     }
+
+    public function comparison(): Response
+    {
+        return response(view('content.comparison'));
+    }
 }
