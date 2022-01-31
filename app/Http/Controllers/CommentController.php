@@ -11,6 +11,13 @@ class CommentController extends Controller
 {
     public function index(): Response
     {
+        $allComments = Comment::all();
+        
+        if($allComments->isEmpty())
+        {
+            return response(view('shared.soft_404'));
+        }
+
         return response(redirect(route('comment.show', ['comment' => Comment::all()->first()])));
     }
 

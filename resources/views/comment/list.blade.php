@@ -3,11 +3,6 @@
 @section('title', 'Comments list')
 
 @section('content')
-    @if(empty($currentComment))
-    <div class="row">
-        <h1>No comments to display</h1>
-    </div>
-    @else
     <div class="row">
         <div class="col col-2">
             <aside>
@@ -52,5 +47,4 @@
             </main>
         </div>
     </div>
-    @endif
 @endsection
