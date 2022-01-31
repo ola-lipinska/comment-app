@@ -27,4 +27,4 @@ Route::get('/comments', [CommentController::class, 'index'])->name('comment.list
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.form');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 
-Route::get('/cities-in-europe', [ContentController::class, 'citiesInEurope'])->name('content.cities_in_europe');
+Route::get('/cities-in-poland', [ContentController::class, 'citiesInPoland'])->name('content.cities_in_poland');
