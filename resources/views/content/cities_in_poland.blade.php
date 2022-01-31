@@ -22,7 +22,7 @@
 
 <p>Gdańsk jest miastem położonym nad Morzem Bałtyckim, dokładniej nad Zatoką Gdańską, przy ujściu Motławy do Wisły. Urzeka przepiękną, zachwycającą architekturą i niecodzienną atmosferą. Najcenniejsze zabytki położone są wzdłuż Drogi Królewskiej prowadzącej od Bramy Wyżniej do Bramy Zielonej znajdującej się praktycznie przy Motławie. Zwiedzając to miasto na pewno warto zobaczyć: Fontannę Neptuna, Ratusz Głównego Miasta, Bramę Żuraw, Długie Pobrzeże oraz Bazylikę Mariacką. 
 </p>
-<div style="text-align: center"><img src="gdansk.jpg" alt=Tekst" height="280px" width="482px"></div>
+<div style="text-align: center"><img src="{{ asset('img/gdansk.jpg') }}" alt=Tekst" height="280px" width="482px"></div>
 
 <p><b>2. Kraków</b></p>
 <p>Kraków jest jednym z najstarszych miast Polski. Posiada drugą w Europie Środkowej, po uniwersytecie w Pradze, najstarszą uczelnię wyższą – Uniwersytet Jagielloński. Do najważniejszych zabytków z całą pewnością należą: Zamek Królewski na Wawelu, mury obronne, Sukiennice, kościół Mariacki, Barbakan, wieża ratuszowa. Kraków urzeka niepowtarzalną atmosferą − chwilami leniwą, chwilami pełną wydarzeń, ale zawsze wyjątkową i inspirującą.</p>
@@ -30,7 +30,7 @@
 
 <p><b>3. Wrocław</b></p>
 <p>Wrocław, stolica Dolnego Śląska, jest jednym z najstarszych i najpiękniejszych miast w Polsce. Położony u podnóża Sudetów, nad rzeką Odrą. Będąc we Wrocławiu nie można ominąć takich miejsc jak: Rynek Główny, Hala Stulecia, Panorama Racławicka, Ogród Japoński. Jest to niezwykle urokliwe miasto, pełne zabytkowych kamienic, o specyficznym klimacie.</p>
-<div style="text-align: center"><img src="wroclaw.jpg" alt=Tekst" height="280px" width="482px"></div
+<div style="text-align: center"><img src="{{ asset('img/wroclaw.jpg') }}" alt=Tekst" height="280px" width="482px"></div
 
  <!-- Optional JavaScript; choose one of the two! -->
 
