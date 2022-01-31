@@ -16,7 +16,7 @@
     <title>Porównanie</title>
   </head>
   <body>
-  <center><h1>Porównanie kosztów i czasu podróży</h1></center>
+  <center><h1>Porównanie kosztów i czasu podróży z Warszawy</h1></center>
 
   <body style="background-color: #E6E6FA;"></body>
    <table class="table table-success table-striped">
